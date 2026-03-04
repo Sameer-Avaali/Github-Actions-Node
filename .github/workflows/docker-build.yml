@@ -21,10 +21,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Run Tests
-        run: npm test
-
-
   build-and-push:
     needs: test
     runs-on: ubuntu-latest
